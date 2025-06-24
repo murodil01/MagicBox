@@ -21,19 +21,85 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./discount.css" />
   </head>
   <body>
+    <!-- Navbar start -->
     <header class="header">
       <div class="header__wrapper container">
         <a class="header__logo" href="#">
           <img src="./images/logo.png" alt="Logo" class="logo" />
           <span class="d-none d-sm-inline">FoodQuest</span>
         </a>
-        <input type="text" name="" id="" placeholder="Search" />
-        <i class="fa-solid fa-heart" style="color: red"></i>
-        <i class="fa-solid fa-user"></i>
+        <div>
+          <input type="text" name="" id="" placeholder="Search" />
+        </div>
+        <div>
+          <a href="#"><i class="fa-solid fa-heart" style="color: red"></i></a>
+          <a href="#"><i class="fa-solid fa-user"></i></a>
+        </div>
       </div>
     </header>
+    <!-- Navbar finish -->
+
+    <!-- Discount start -->
+    <section class="discount">
+      <div class="discount__wrapper container">
+        <a class="discount__link" href="#"
+          ><i class="fa-solid fa-percent"></i> Discount</a
+        >
+        <a class="discount__link" href="#"
+          ><i class="fa-solid fa-utensils"></i> Restaurants</a
+        >
+        <a class="discount__link" href="#"
+          ><i class="fa-solid fa-calendar-days"></i> Events</a
+        >
+        <a class="discount__link" href="#"
+          ><i class="fa-solid fa-gift"></i>Magic Box</a
+        >
+        <a class="discount__link" href="#"
+          ><i class="fa-solid fa-gamepad"></i> Game</a
+        >
+      </div>
+    </section>
+    <!-- Discount finish -->
+
+    <!-- Footer start -->
+    <footer class="footer">
+      <div class="footer-container container">
+        <div class="footer-logo">
+          <a class="header__logo" href="#">
+            <img src="./images/logo.png" alt="Logo" class="logo" />
+            <span class="d-none d-sm-inline">FoodQuest</span>
+          </a>
+          <p>Eng mazali va foydali ovqatlar bizda!</p>
+        </div>
+
+        <div class="footer-links">
+          <h4>Foydali havolalar</h4>
+          <ul>
+            <li><a href="#">Bosh sahifa</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Aloqa</a></li>
+            <li><a href="#">Yangiliklar</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-social">
+          <h4>Bog'lanish</h4>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-telegram" style="color: red"></i></a>
+            <a href="#"><i class="fab fa-instagram" style="color: red"></i></a>
+            <a href="#"><i class="fab fa-facebook-f" style="color: red"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 FoodQuest. Barcha huquqlar himoyalangan.</p>
+      </div>
+    </footer>
+    <!-- Footer finish -->
 
     <script>
       const toggle = document.getElementById("menu-toggle");
